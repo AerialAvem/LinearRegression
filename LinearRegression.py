@@ -15,7 +15,7 @@ def plotLine(theta0, theta1, X, y):
     yplot = theta0 + theta1 * xplot
 
 
-    plt.plot(xplot, yplot, color='#58b970', label='Regression Line')
+    plt.plot(xplot, yplot, color='#FA8072', label='Regression Line')
 
     plt.scatter(X,y)
     plt.show()
